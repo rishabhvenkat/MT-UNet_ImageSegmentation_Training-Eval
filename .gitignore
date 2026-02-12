@@ -1,7 +1,35 @@
-*.log
-*.png
-.DS_Store
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
 *.pyc
-*/__pycache__
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Large project folders
+# ----------------------
+dataset/
+checkpoint/
+predictions/
+
+# Model weights
 *.pth
+
+# Medical volumes
 *.nii.gz
+*.nii
+
+# Images (optional)
+*.png
